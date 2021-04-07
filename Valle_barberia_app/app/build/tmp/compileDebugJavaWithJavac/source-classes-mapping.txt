@@ -1,0 +1,26 @@
+com/example/vallebarberia/dialogos/TimePickerFragment.java
+ com.example.vallebarberia.dialogos.TimePickerFragment
+com/example/vallebarberia/BuildConfig.java
+ com.example.vallebarberia.BuildConfig
+com/example/vallebarberia/myAdapter/MyAdapter.java
+ com.example.vallebarberia.myAdapter.MyAdapter
+com/example/vallebarberia/Visual_cut.java
+ com.example.vallebarberia.Visual_cut
+ com.example.vallebarberia.Visual_cut$1
+ com.example.vallebarberia.Visual_cut$2
+ com.example.vallebarberia.Visual_cut$3
+ com.example.vallebarberia.Visual_cut$4
+ com.example.vallebarberia.Visual_cut$5
+com/example/vallebarberia/MainActivity.java
+ com.example.vallebarberia.MainActivity
+com/example/vallebarberia/cortes/ConexionSqliteHelper.java
+ com.example.vallebarberia.cortes.ConexionSqliteHelper
+com/example/vallebarberia/AddCut.java
+ com.example.vallebarberia.AddCut
+ com.example.vallebarberia.AddCut$1
+ com.example.vallebarberia.AddCut$2
+ com.example.vallebarberia.AddCut$2$1
+com/example/vallebarberia/utilidades/Utilidades.java
+ com.example.vallebarberia.utilidades.Utilidades
+com/example/vallebarberia/dialogos/DatePickerFragment.java
+ com.example.vallebarberia.dialogos.DatePickerFragment
