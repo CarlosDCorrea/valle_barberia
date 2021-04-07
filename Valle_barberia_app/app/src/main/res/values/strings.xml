@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Valle Barbería</string>
+    <string name="btn_cuts">Agregar corte</string>
+    <string name="btn_cuts_visualize">Visualizar cortes</string>
+    <string name="btn_graphs">Gráficos</string>
+    <string name="btn_save_cut">Guardar corte</string>
+    <string name="edt_hint_name_client">Nombre</string>
+    <string name="btn_show_cut">Mostrar</string>
+
+    <!-- Description images -->
+    <string name="logo_valle_barberia">Logo de valle barberia</string>
+
+    <string-array name="cuts_types">
+        <item>Normal</item>
+        <item>Normal + Barba</item>
+    </string-array>
+</resources>

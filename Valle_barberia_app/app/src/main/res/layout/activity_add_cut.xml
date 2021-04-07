@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night_city"
+    tools:context=".AddCut">
+
+    <include layout="@layout/action_bar_2"
+        android:id="@+id/action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="100dp"
+        android:layout_margin="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/action_bar">
+
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:inputType="date"
+            android:focusable="false"
+            android:clickable="true"
+            android:maxLines="1"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            style="@style/ed_text_style"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:autofillHints="@string/edt_hint_name_client"
+            android:hint="@string/edt_hint_name_client"
+            android:inputType="text"
+            style="@style/ed_text_style"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Spinner
+            android:id="@+id/spn_cuts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_save_cut"
+            android:text="@string/btn_save_cut"
+            style="@style/buttonsMainApp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

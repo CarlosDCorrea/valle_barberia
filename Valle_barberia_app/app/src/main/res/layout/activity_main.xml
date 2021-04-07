@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="100dp"
+    android:background="@drawable/night_city"
+    tools:context=".MainActivity">
+    <include layout="@layout/action_bar"
+        android:id="@+id/action_bar"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="50dp"
+        android:paddingBottom="50dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:layout_below="@id/action_bar">
+
+        <ImageView
+            android:id="@+id/Barber_img"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/valle"
+            android:contentDescription="@string/logo_valle_barberia" />
+
+
+        <Button
+            android:id="@+id/Add_cut"
+            style="@style/buttonsMainApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:onClick="btn_add_cut"
+            android:text="@string/btn_cuts"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/visualize_cut"
+            style="@style/buttonsMainApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="btn_visualice_cut"
+            android:text="@string/btn_cuts_visualize" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
